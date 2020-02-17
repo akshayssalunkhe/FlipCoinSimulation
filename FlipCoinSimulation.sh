@@ -7,7 +7,7 @@ echo "Welcome To Flip Coin Simulation"
 declare -A flipResult
 
 #CONSTANT
-numberOfCoins=2;
+numberOfCoins=3;
 
 #VARIABLES
 flipTimes=0;
