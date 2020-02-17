@@ -24,7 +24,7 @@ function flip() {
 		for (( i=1; i<=flipTimes; i++ ))
 		do
 			side=""
-			for(( index=1; index<=$numberOfCoins; index++ ))
+			for (( index=1; index<=$numberOfCoins; index++ ))
 			do
 				if [ $((RANDOM%2)) -eq 0 ]
 				then
